@@ -15,6 +15,11 @@
 		466BDE511F4889000032C30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466BDE4F1F4889000032C30D /* LaunchScreen.storyboard */; };
 		466BDE5C1F4889000032C30D /* AudiCapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 466BDE5B1F4889000032C30D /* AudiCapTests.m */; };
 		466BDE671F4889000032C30D /* AudiCapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 466BDE661F4889000032C30D /* AudiCapUITests.m */; };
+		466BDE781F488A440032C30D /* photograph_Select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 466BDE741F488A440032C30D /* photograph_Select@2x.png */; };
+		466BDE791F488A440032C30D /* photograph_Select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 466BDE751F488A440032C30D /* photograph_Select@3x.png */; };
+		466BDE7A1F488A440032C30D /* photograph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 466BDE761F488A440032C30D /* photograph@2x.png */; };
+		466BDE7B1F488A440032C30D /* photograph@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 466BDE771F488A440032C30D /* photograph@3x.png */; };
+		466BDE7E1F488BA80032C30D /* MPVolumeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 466BDE7D1F488BA80032C30D /* MPVolumeObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		466BDE621F4889000032C30D /* AudiCapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiCapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		466BDE661F4889000032C30D /* AudiCapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiCapUITests.m; sourceTree = "<group>"; };
 		466BDE681F4889000032C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466BDE741F488A440032C30D /* photograph_Select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph_Select@2x.png"; sourceTree = "<group>"; };
+		466BDE751F488A440032C30D /* photograph_Select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph_Select@3x.png"; sourceTree = "<group>"; };
+		466BDE761F488A440032C30D /* photograph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph@2x.png"; sourceTree = "<group>"; };
+		466BDE771F488A440032C30D /* photograph@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph@3x.png"; sourceTree = "<group>"; };
+		466BDE7C1F488BA80032C30D /* MPVolumeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPVolumeObserver.h; sourceTree = "<group>"; };
+		466BDE7D1F488BA80032C30D /* MPVolumeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPVolumeObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +112,16 @@
 		466BDE401F4889000032C30D /* AudiCap */ = {
 			isa = PBXGroup;
 			children = (
+				466BDE741F488A440032C30D /* photograph_Select@2x.png */,
+				466BDE751F488A440032C30D /* photograph_Select@3x.png */,
+				466BDE761F488A440032C30D /* photograph@2x.png */,
+				466BDE771F488A440032C30D /* photograph@3x.png */,
 				466BDE441F4889000032C30D /* AppDelegate.h */,
 				466BDE451F4889000032C30D /* AppDelegate.m */,
 				466BDE471F4889000032C30D /* ViewController.h */,
 				466BDE481F4889000032C30D /* ViewController.m */,
+				466BDE7C1F488BA80032C30D /* MPVolumeObserver.h */,
+				466BDE7D1F488BA80032C30D /* MPVolumeObserver.m */,
 				466BDE4A1F4889000032C30D /* Main.storyboard */,
 				466BDE4D1F4889000032C30D /* Assets.xcassets */,
 				466BDE4F1F4889000032C30D /* LaunchScreen.storyboard */,
@@ -249,9 +266,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466BDE781F488A440032C30D /* photograph_Select@2x.png in Resources */,
 				466BDE511F4889000032C30D /* LaunchScreen.storyboard in Resources */,
+				466BDE7B1F488A440032C30D /* photograph@3x.png in Resources */,
 				466BDE4E1F4889000032C30D /* Assets.xcassets in Resources */,
 				466BDE4C1F4889000032C30D /* Main.storyboard in Resources */,
+				466BDE7A1F488A440032C30D /* photograph@2x.png in Resources */,
+				466BDE791F488A440032C30D /* photograph_Select@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +299,7 @@
 			files = (
 				466BDE491F4889000032C30D /* ViewController.m in Sources */,
 				466BDE461F4889000032C30D /* AppDelegate.m in Sources */,
+				466BDE7E1F488BA80032C30D /* MPVolumeObserver.m in Sources */,
 				466BDE431F4889000032C30D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
