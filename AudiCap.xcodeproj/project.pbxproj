@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466BDE431F4889000032C30D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 466BDE421F4889000032C30D /* main.m */; };
+		466BDE461F4889000032C30D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 466BDE451F4889000032C30D /* AppDelegate.m */; };
+		466BDE491F4889000032C30D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 466BDE481F4889000032C30D /* ViewController.m */; };
+		466BDE4C1F4889000032C30D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466BDE4A1F4889000032C30D /* Main.storyboard */; };
+		466BDE4E1F4889000032C30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466BDE4D1F4889000032C30D /* Assets.xcassets */; };
+		466BDE511F4889000032C30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466BDE4F1F4889000032C30D /* LaunchScreen.storyboard */; };
+		466BDE5C1F4889000032C30D /* AudiCapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 466BDE5B1F4889000032C30D /* AudiCapTests.m */; };
+		466BDE671F4889000032C30D /* AudiCapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 466BDE661F4889000032C30D /* AudiCapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466BDE581F4889000032C30D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466BDE361F4889000032C30D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466BDE3D1F4889000032C30D;
+			remoteInfo = AudiCap;
+		};
+		466BDE631F4889000032C30D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466BDE361F4889000032C30D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466BDE3D1F4889000032C30D;
+			remoteInfo = AudiCap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466BDE3E1F4889000032C30D /* AudiCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466BDE421F4889000032C30D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		466BDE441F4889000032C30D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		466BDE451F4889000032C30D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		466BDE471F4889000032C30D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		466BDE481F4889000032C30D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		466BDE4B1F4889000032C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466BDE4D1F4889000032C30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466BDE501F4889000032C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		466BDE521F4889000032C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466BDE571F4889000032C30D /* AudiCapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiCapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466BDE5B1F4889000032C30D /* AudiCapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiCapTests.m; sourceTree = "<group>"; };
+		466BDE5D1F4889000032C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466BDE621F4889000032C30D /* AudiCapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiCapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466BDE661F4889000032C30D /* AudiCapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiCapUITests.m; sourceTree = "<group>"; };
+		466BDE681F4889000032C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466BDE3B1F4889000032C30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466BDE541F4889000032C30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466BDE5F1F4889000032C30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466BDE351F4889000032C30D = {
+			isa = PBXGroup;
+			children = (
+				466BDE401F4889000032C30D /* AudiCap */,
+				466BDE5A1F4889000032C30D /* AudiCapTests */,
+				466BDE651F4889000032C30D /* AudiCapUITests */,
+				466BDE3F1F4889000032C30D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466BDE3F1F4889000032C30D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466BDE3E1F4889000032C30D /* AudiCap.app */,
+				466BDE571F4889000032C30D /* AudiCapTests.xctest */,
+				466BDE621F4889000032C30D /* AudiCapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466BDE401F4889000032C30D /* AudiCap */ = {
+			isa = PBXGroup;
+			children = (
+				466BDE441F4889000032C30D /* AppDelegate.h */,
+				466BDE451F4889000032C30D /* AppDelegate.m */,
+				466BDE471F4889000032C30D /* ViewController.h */,
+				466BDE481F4889000032C30D /* ViewController.m */,
+				466BDE4A1F4889000032C30D /* Main.storyboard */,
+				466BDE4D1F4889000032C30D /* Assets.xcassets */,
+				466BDE4F1F4889000032C30D /* LaunchScreen.storyboard */,
+				466BDE521F4889000032C30D /* Info.plist */,
+				466BDE411F4889000032C30D /* Supporting Files */,
+			);
+			path = AudiCap;
+			sourceTree = "<group>";
+		};
+		466BDE411F4889000032C30D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				466BDE421F4889000032C30D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		466BDE5A1F4889000032C30D /* AudiCapTests */ = {
+			isa = PBXGroup;
+			children = (
+				466BDE5B1F4889000032C30D /* AudiCapTests.m */,
+				466BDE5D1F4889000032C30D /* Info.plist */,
+			);
+			path = AudiCapTests;
+			sourceTree = "<group>";
+		};
+		466BDE651F4889000032C30D /* AudiCapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466BDE661F4889000032C30D /* AudiCapUITests.m */,
+				466BDE681F4889000032C30D /* Info.plist */,
+			);
+			path = AudiCapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466BDE3D1F4889000032C30D /* AudiCap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466BDE6B1F4889000032C30D /* Build configuration list for PBXNativeTarget "AudiCap" */;
+			buildPhases = (
+				466BDE3A1F4889000032C30D /* Sources */,
+				466BDE3B1F4889000032C30D /* Frameworks */,
+				466BDE3C1F4889000032C30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudiCap;
+			productName = AudiCap;
+			productReference = 466BDE3E1F4889000032C30D /* AudiCap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466BDE561F4889000032C30D /* AudiCapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466BDE6E1F4889000032C30D /* Build configuration list for PBXNativeTarget "AudiCapTests" */;
+			buildPhases = (
+				466BDE531F4889000032C30D /* Sources */,
+				466BDE541F4889000032C30D /* Frameworks */,
+				466BDE551F4889000032C30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466BDE591F4889000032C30D /* PBXTargetDependency */,
+			);
+			name = AudiCapTests;
+			productName = AudiCapTests;
+			productReference = 466BDE571F4889000032C30D /* AudiCapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		466BDE611F4889000032C30D /* AudiCapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466BDE711F4889000032C30D /* Build configuration list for PBXNativeTarget "AudiCapUITests" */;
+			buildPhases = (
+				466BDE5E1F4889000032C30D /* Sources */,
+				466BDE5F1F4889000032C30D /* Frameworks */,
+				466BDE601F4889000032C30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466BDE641F4889000032C30D /* PBXTargetDependency */,
+			);
+			name = AudiCapUITests;
+			productName = AudiCapUITests;
+			productReference = 466BDE621F4889000032C30D /* AudiCapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466BDE361F4889000032C30D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Larry;
+				TargetAttributes = {
+					466BDE3D1F4889000032C30D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NS9E2DSK82;
+						ProvisioningStyle = Automatic;
+					};
+					466BDE561F4889000032C30D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NS9E2DSK82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 466BDE3D1F4889000032C30D;
+					};
+					466BDE611F4889000032C30D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NS9E2DSK82;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 466BDE3D1F4889000032C30D;
+					};
+				};
+			};
+			buildConfigurationList = 466BDE391F4889000032C30D /* Build configuration list for PBXProject "AudiCap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466BDE351F4889000032C30D;
+			productRefGroup = 466BDE3F1F4889000032C30D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466BDE3D1F4889000032C30D /* AudiCap */,
+				466BDE561F4889000032C30D /* AudiCapTests */,
+				466BDE611F4889000032C30D /* AudiCapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466BDE3C1F4889000032C30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466BDE511F4889000032C30D /* LaunchScreen.storyboard in Resources */,
+				466BDE4E1F4889000032C30D /* Assets.xcassets in Resources */,
+				466BDE4C1F4889000032C30D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466BDE551F4889000032C30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466BDE601F4889000032C30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466BDE3A1F4889000032C30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466BDE491F4889000032C30D /* ViewController.m in Sources */,
+				466BDE461F4889000032C30D /* AppDelegate.m in Sources */,
+				466BDE431F4889000032C30D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466BDE531F4889000032C30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466BDE5C1F4889000032C30D /* AudiCapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466BDE5E1F4889000032C30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466BDE671F4889000032C30D /* AudiCapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466BDE591F4889000032C30D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466BDE3D1F4889000032C30D /* AudiCap */;
+			targetProxy = 466BDE581F4889000032C30D /* PBXContainerItemProxy */;
+		};
+		466BDE641F4889000032C30D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466BDE3D1F4889000032C30D /* AudiCap */;
+			targetProxy = 466BDE631F4889000032C30D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466BDE4A1F4889000032C30D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466BDE4B1F4889000032C30D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		466BDE4F1F4889000032C30D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466BDE501F4889000032C30D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466BDE691F4889000032C30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		466BDE6A1F4889000032C30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466BDE6C1F4889000032C30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NS9E2DSK82;
+				INFOPLIST_FILE = AudiCap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiCap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		466BDE6D1F4889000032C30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NS9E2DSK82;
+				INFOPLIST_FILE = AudiCap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiCap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		466BDE6F1F4889000032C30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NS9E2DSK82;
+				INFOPLIST_FILE = AudiCapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiCapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudiCap.app/AudiCap";
+			};
+			name = Debug;
+		};
+		466BDE701F4889000032C30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NS9E2DSK82;
+				INFOPLIST_FILE = AudiCapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiCapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudiCap.app/AudiCap";
+			};
+			name = Release;
+		};
+		466BDE721F4889000032C30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NS9E2DSK82;
+				INFOPLIST_FILE = AudiCapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiCapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudiCap;
+			};
+			name = Debug;
+		};
+		466BDE731F4889000032C30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NS9E2DSK82;
+				INFOPLIST_FILE = AudiCapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FBI.AudiCapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudiCap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466BDE391F4889000032C30D /* Build configuration list for PBXProject "AudiCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466BDE691F4889000032C30D /* Debug */,
+				466BDE6A1F4889000032C30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466BDE6B1F4889000032C30D /* Build configuration list for PBXNativeTarget "AudiCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466BDE6C1F4889000032C30D /* Debug */,
+				466BDE6D1F4889000032C30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466BDE6E1F4889000032C30D /* Build configuration list for PBXNativeTarget "AudiCapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466BDE6F1F4889000032C30D /* Debug */,
+				466BDE701F4889000032C30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466BDE711F4889000032C30D /* Build configuration list for PBXNativeTarget "AudiCapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466BDE721F4889000032C30D /* Debug */,
+				466BDE731F4889000032C30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466BDE361F4889000032C30D /* Project object */;
+}
